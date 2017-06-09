@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/opensans.eot");
+	src: local('Open Sans'),
+	url("../fonts/opensans.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/opensans.woff") format("woff"),
+	url("../fonts/opensans.woff2") format("woff2"),
+	url("../fonts/opensans.ttf") format("truetype"),
+	url("../fonts/opensans.otf") format("otf"),
+	url("../fonts/opensans.svg#opensans") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/opensanssemibold.eot");
+	src: local('Open Sans'),
+	url("../fonts/opensanssemibold.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/opensanssemibold.woff") format("woff"),
+	url("../fonts/opensanssemibold.woff2") format("woff2"),
+	url("../fonts/opensanssemibold.ttf") format("truetype"),
+	url("../fonts/opensanssemibold.otf") format("otf"),
+	url("../fonts/opensanssemibold.svg#opensanssemibold") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+$main_color: #999;
+$text_color: #363636;
+$second_color: #ff9311;
+$light_color: #e3e3e3;
+$font: 'Open Sans', Roboto, sans-serif;
+
+p {
+	margin: 15px 0;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+ol li {
+	list-style: decimal inside;
+}
